@@ -1,0 +1,111 @@
+A:link {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #aa0088; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A.banner {
+	FONT-SIZE: small; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.bblue {
+	FONT-SIZE: small; COLOR: #ffffff; BACKGROUND-COLOR: #9999ff; TEXT-ALIGN: center
+}
+A.bred {
+	FONT-SIZE: small; COLOR: #ffffff; BACKGROUND-COLOR: #ff6666; TEXT-ALIGN: center
+}
+BODY {
+	FONT-SIZE: small; FONT-FAMILY: sans-serif; BACKGROUND-COLOR: white
+}
+H1 {
+	FONT-SIZE: 20pt; COLOR: #3366ff; FONT-FAMILY: sans-serif
+}
+H2 {
+	COLOR: #3366ff; FONT-FAMILY: sans-serif
+}
+H3 {
+	COLOR: #3366ff; FONT-FAMILY: sans-serif
+}
+H4 {
+	COLOR: #3366ff; FONT-FAMILY: sans-serif
+}
+INPUT {
+	BACKGROUND-COLOR: white
+}
+OL {
+	FONT-SIZE: small; FONT-FAMILY: sans-serif
+}
+UL {
+	FONT-SIZE: small; FONT-FAMILY: sans-serif
+}
+LI {
+	LIST-STYLE-POSITION: outside; FONT-SIZE: small; LIST-STYLE-IMAGE: url("images/reddot.gif.html"); FONT-FAMILY: sans-serif
+}
+DL {
+	FONT-SIZE: small; FONT-FAMILY: sans-serif
+}
+DT {
+	FONT-SIZE: small; FONT-FAMILY: sans-serif
+}
+DD {
+	FONT-FAMILY: sans-serif
+}
+P {
+	FONT-SIZE: small; FONT-FAMILY: sans-serif
+}
+PRE.peptide {
+	FONT-SIZE: small
+}
+PRE.dna {
+	FONT-SIZE: small; FONT-FAMILY: monospace
+}
+SELECT {
+	BACKGROUND-COLOR: white
+}
+TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px; spacing: 2
+}
+TD {
+	FONT-SIZE: small; FONT-FAMILY: sans-serif
+}
+TH {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; FONT-FAMILY: sans-serif
+}
+.abstract {
+	BACKGROUND-COLOR: #ffeeee
+}
+.acetree {
+	FONT-SIZE: 10pt
+}
+.banner {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: x-large; PADDING-BOTTOM: 100px; COLOR: yellow; PADDING-TOP: 100px; BACKGROUND-COLOR: blue; align: center
+}
+.data {
+	FONT-SIZE: small
+}
+.datatitle {
+	BACKGROUND-COLOR: #93cbf4
+}
+.databody {
+	BACKGROUND-COLOR: #ccffff
+}
+.search {
+	FONT-SIZE: small
+}
+.searchbody {
+	BACKGROUND-COLOR: #ffffcc
+}
+.searchbodyalt {
+	BACKGROUND-COLOR: #ccffff
+}
+.searchtitle {
+	BACKGROUND-COLOR: #ffff99
+}
+.description {
+	FONT-STYLE: italic
+}
+.error {
+	COLOR: red
+}

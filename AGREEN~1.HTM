@@ -1,0 +1,341 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0037)http://www.gmod.org/green_paper.shtml -->
+<HTML><HEAD><TITLE>A Green Paper: Informatics for 'Small' Organisms</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="AGREEN~1/stylesheet.css" 
+type=text/css rel=stylesheet>
+<META content="MSHTML 5.50.4807.2300" name=GENERATOR></HEAD>
+<BODY bgColor=white>
+<CENTER>
+<H1>Informatics for 'small' organisms.</H1></CENTER><!-- include this into .shtml files -->
+<TABLE cellSpacing=3 cellPadding=3 width="100%" 
+  summary="Site navigation links"><TBODY>
+  <TR>
+    <TH vAlign=top align=left width="25%" bgColor=lightblue><B><A 
+      href="http://www.gmod.org/">GMOD Home Page</A></B> 
+      <P>GMOD Resources 
+      <UL>
+        <LI><A href="http://sourceforge.net/news/?group_id=27707">News</A> 
+        <LI><A href="http://sourceforge.net/mail/?group_id=27707">Mailing 
+        Lists</A> 
+        <LI><A href="http://sourceforge.net/forum/?group_id=27707">Discussion 
+        Forums</A> 
+        <LI><A href="http://sourceforge.net/tracker/?group_id=27707">Bug Reports 
+        &amp; Feature Requests</A> 
+        <LI><A href="http://www.gmod.org/matrix.shtml">The Software Matrix</A> 
+        <LI><A href="http://sourceforge.net/projects/gmod">GMOD Developers' 
+        Pages</A> 
+        <LI>Downloads 
+        <UL>
+          <LI><A 
+          href="http://sourceforge.net/project/showfiles.php?group_id=27707">Via 
+          the Web</A> 
+          <LI><A href="http://prdownloads.sourceforge.net/gmod/">Via FTP</A> 
+          <LI><A href="http://www.gmod.org/cvs.shtml">Via Anonymous CVS</A> 
+          <LI><A 
+          href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/gmod/">Browsable 
+          CVS</A> </LI></UL></LI></UL>
+      <P>Demos 
+      <UL>
+        <LI><A href="http://www.gmod.org/ggb/index.shtml">Generic Genome 
+        Browser</A> 
+        <LI><A href="http://www.wormbase.org/db/seq/frend">Genome Renderer</A> 
+        <LI><A href="http://www.gmod.org/sop/curatorial/curator.html">GMOD 
+        Standard Operating Procedures (SOPs)</A> </LI></UL>
+      <P></P>
+      <P>Links to Related Projects </P>
+      <UL>
+        <LI><A href="http://www.flybase.org/">FlyBase</A> 
+        <LI><A href="http://www.informatics.jax.org/">MGD</A> 
+        <LI><A href="http://genome-www.stanford.edu/Saccharomyces/">SGD</A> 
+        <LI><A href="http://www.wormbase.org/">WormBase</A> 
+        <LI><A href="http://arabidopsis.org/search/schemas.html">TAIR 
+        Schemas</A> 
+        <LI><A href="http://rgd.mcw.edu/">Rat Genome Database</A> 
+        <LI><A href="http://biocyc.org/">BioCyc</A> 
+        <LI><A href="http://www.bioperl.org/">Bioperl</A> 
+        <LI><A href="http://www.biojava.org/">BioJava</A> 
+        <LI><A href="http://www.bioxml.org/">BioXML</A> 
+        <LI><A href="http://sourceforge.net/projects/geneontology/">Gene 
+        Ontology Software</A> 
+        <LI><A href="http://www.biodas.org/">DAS</A> </LI></UL>
+      <CENTER><A href="http://www.usda.gov/"><IMG 
+      alt="USDA Agricultural Research Service" 
+      src="A%20Green%20Paper%20Informatics%20for%20&apos;Small&apos;%20Organisms_files/ARSlogo.jpg.html" 
+      align=center border=0></A><BR>GMOD is supported by a specific cooperative 
+      agreement from the USDA Agricultural Research Service, and by grants from 
+      the National Human Genome Research Institute.<BR><A 
+      href="http://www.genome.gov/"><IMG 
+      alt="National Human Genome Researc Institute" 
+      src="A%20Green%20Paper%20Informatics%20for%20&apos;Small&apos;%20Organisms_files/nihlogo.gif.html" 
+      align=center border=0></A> </CENTER></TH>
+    <TD vAlign=top width="75%">
+      <CENTER>
+      <H3>A green paper.</H3>
+      <H5>Michael Ashburner and Susanna Lewis (FlyBase); Lincoln Stein and Paul 
+      Sternberg (WormBase).</H5>
+      <H5>November 2001, revised April 2002, HTML mark up September 
+      2002</H5></CENTER>
+      <P>Many 'small' organisms, small not in the physical sense but in the 
+      sense that their community of researchers is small, have an urgent need 
+      for databases and informatics tools. They look at the 'large' organisms, 
+      organisms with a substantial research community, and see that these have 
+      well-funded informatics infrastructure supporting the community's 
+      research. The obvious question that then arises is: 'how can these guys 
+      help us ?' This green paper is a first attempt to address this question. 
+      </P>
+      <P>All organisms, both large and small, have a need of informatics support 
+      for two quite different reasons. The first is to serve the research needs 
+      of their own communities; the other is to serve the needs of the broader 
+      biomedical community who must be able to exploit the great strengths of 
+      the comparative approach to biological research. </P>
+      <P>Both the 'small communities' and their funders are nervous of investing 
+      in databases and associated informatic tools. They are nervous for several 
+      reasons - their inability to make informed technical decisions; their fear 
+      that funding informatics will divert resources from what some still regard 
+      as 'real research'; their fear that a commitment to informatics 
+      infrastructure will lead them into a never-ending, inescapable development 
+      morass. To the funders we can only say that without a suitable informatics 
+      infrastructure there is now little point in funding biological research. 
+      </P>
+      <P>This document attempts to establish some criteria that may be used to 
+      address the first of these fears, inexperience with informatics. </P>
+      <OL>
+        <P>
+        <LI>You must, to be successful, have the support of your research 
+        community. Get it. This is rule number one.
+        <P></P>
+        <P></P>
+        <LI>Work towards the greater good, because indulging in power wars leads 
+        directly to failure. Once a community does decide to take the leap and 
+        concludes that it does require informatics in order to successfully 
+        carry out research, then everyone responsible must keep this objective 
+        in mind, and not waste energy on ego battles.
+        <P></P>
+        <P></P>
+        <LI>Talk to those with experience with the 'large' organism databases, 
+        e.g., FlyBase, Mouse Genome Database, The Saccharomyces Genome Database, 
+        WormBase, The Arabidopsis Information Resource. Talk to those with 
+        recent experience in beginning organism databases, e.g., RatBase, 
+        DictyBase. Talk not only with their PI's, but also to their curators and 
+        computer scientists. Study these databases and learn from them; see what 
+        tools they use.
+        <P></P>
+        <P></P>
+        <LI>Decide, as a matter of practice and principle, to re-use rather than 
+        re- invent. Do not be 'original' simply for the point of it; but be 
+        inventive when a need cannot be otherwise satisfied. Develop software as 
+        'open source', which is both a specific practice and way of thinking. 
+        This means (a) using open source rather than proprietary software and 
+        tools and (b) making your own database and any tools associated with it 
+        open source. The GMOD site will increasingly have software designed to 
+        be used by other model organism databases. If you do need to write your 
+        own software for a particular purpose consider contributing to this 
+site.
+        <P></P>
+        <P><TT>[The term Open Source is most usually applied to code, but the 
+        philosophy behind the Open Source 'movement' is as equally applicable to 
+        data. Read Raymond's 'The Cathedral &amp; The Bazaar' and DiBona et al. 
+        (1999) 'Open Sources'. For a definition of Open Source see Appendix B in 
+        DiBona et al. 1999.] </TT></P>
+        <P></P>
+        <LI>Spend time understanding abstract representations of the relevant 
+        data models describing your domain. Learn how to describe your data at 
+        the conceptual level and capturing what is fundamental to its character.
+        <P></P>
+        <P></P>
+        <LI>Follow the field - subscribe to the email discussion lists from 
+        groups such as GMOD and GO. Go to meetings such as ISMB, PAGA, the Gene 
+        Ontology Consortium Open meetings, the CSH Sequencing Meeting etc. Work 
+        with the other major databases, especially the International Nucleic 
+        Acid Sequence Database (GenBank/EMBL-bank, DDBJ), SWISS-PROT, InterPro 
+        and the Gene Ontology Consortium. They can help you enormously.
+        <P></P>
+        <P></P>
+        <LI>Invest in collaborations; meet face-to-face with your collaborators 
+        at least three times a year; supplement these with video conferences and 
+        conference calls. Invest in quality time with your collaborators.
+        <P></P>
+        <P></P>
+        <LI>Remember: 'perfection is the enemy of the good'. Do not wait until 
+        your data and database and tools are 'perfect' before releasing to the 
+        community. They never will be. Get the data out, improve the database 
+        and interfaces incrementally. Start with the easy stuff, for example a 
+        'complete' literature reference data set or a community address list.
+        <P></P>
+        <P></P>
+        <LI>Scope your database - avoid creeping 'featurism'. This is not as 
+        easy as it sounds and requires that you really think about what you want 
+        to provide to your users and, even more importantly, what they need.
+        <P></P>
+        <P></P>
+        <LI>Think long-term about the future of your database. Worry, well 
+        before the event, how you will ensure that critical work will continue 
+        when the founders retire, are fired or get fed up.
+        <P></P></LI></OL>
+      <H4>The three levels.</H4>
+      <OL>
+        <LI>Curation - data in. 
+        <LI>Databasing - data storage and organisation. 
+        <LI>Access - data out. </LI></OL>
+      <OL>
+        <P>
+        <LI>Curation. This term generally covers four different, but inter- 
+        connected, processes:
+        <P></P>
+        <UL>
+          <P>
+          <LI>Sequence curation, or rather the curation of sequence annotation: 
+          Very often the sequence, and its associated primary annotation, will 
+          be coming from an independent sequencing lab. By primary sequence 
+          annotation we mean the results of the first high- throughput 
+          annotation of the sequence, often dominated by computational data, 
+          rather than the product of human curation. Insist that you obtain 
+          these data in a standard rich format (e.g. GAME XML, GFF), rather than 
+          as GenBank or EMBL-Bank format flat files. For the maintenance of 
+          annotation (by computational methods and by curation of the published 
+          literature) do not attempt to develop your own tools, but use one that 
+          is available from the community and which will interact with your 
+          database.
+          <P></P>
+          <P></P>
+          <LI>Other high-throughput data: ESTs, cDNAs, Increasingly you may need 
+          to curate data from high-throughput 'post-genomic' projects, 
+          expression arrays, protein-protein interactions etc. This will often 
+          require the ability to write one-off scripts to parse data formats.
+          <P></P>
+          <P></P>
+          <LI>Literature curation: Even if your database only includes 
+          annotations on sequence then you will need to curate information from 
+          the published scientific literature. This will require tools. Note 
+          that, as good as they are neither PUBMED nor MEDLINE cover the entire 
+          scientific literature.
+          <P></P>
+          <P></P>
+          <LI>Curation of personal communications from the community. Much data 
+          never gets published in the conventional sense but is immensely 
+          useful. Encourage the community to submit it to you. Attempt to 
+          archive data from personal web sites maintained by researchers, thus 
+          ensuring its persistence beyond the life of one well organized 
+          postdoc. Always attribute data to its source, never enter data 'ex 
+          cathedra', but attribute it to a particular named 'pope'.
+          <P></P></LI></UL>
+        <P></P>
+        <LI>Databasing. Do not spend even one minute debating low-level 
+        implementation details, for example, Sybase vs. Oracle vs. object 
+        orientated database management systems. Rather, accept the fact that 
+        particular technological solutions are transitory as that technology 
+        improves. Technical differences are negligible relative to differences 
+        in skills between individual developers and therefore implementation 
+        decisions are best determined by the experience of the personnel that is 
+        available. Note that Open Source relational database management systems, 
+        such as mySQL and postGRESS, are now reasonably mature.
+        <P></P>
+        <P></P>
+        <LI>Access. Who is your community ? Let us answer this - it is the 
+        community of researchers who work with 'your' organism, it is the 
+        greater community of biological and biomedical researchers who, 
+        increasingly, need to access data from other species and, it is the 
+        community of bioinformaticists who will want to 'mine' your data. 
+        <P></P>
+        <P>Ensure that access to your database will not be limited to a WWW- 
+        based query tool but will also include access to the entirety of the 
+        data in a format that allows computation. Do not kid yourself that a web 
+        query interface satisfies the community's needs for access.</P></LI></OL>
+      <H4>Some references and sources.</H4>
+      <H5>Open Source:</H5>
+      <DL>
+        <DT>DiBona, C., S. Ockman and M. Stone (editors) (1999). OpenSources. 
+        O'Rielly, Sebastopol, CA.
+        <DT>
+        <DT>Raymond, E.S (1999). The Cathedral &amp; The Bazaar. O''Rielly, 
+        Sebastopol, CA. </DT></DL>
+      <H5>Some model Organism database URLs:</H5>
+      <UL>
+        <LI>Arabidopsis: <A 
+        href="http://www.arabidopsis.org/">www.arabidopsis.org/</A> 
+        <LI>DictyBase: <A href="http://dictybase.org/">dictybase.org/</A> 
+        <LI>FlyBase: <A 
+        href="http://flybase.bio.indiana.edu/">flybase.bio.indiana.edu/</A> 
+        <LI>Mouse Genome Database: <A 
+        href="http://www.informatics.jax.org/">www.informatics.jax.org/</A> 
+        <LI>RatBase: <A href="http://rgd.mcw.edu/">rgd.mcw.edu/</A> 
+        <LI>Saccharomyces Genome Database: <A 
+        href="http://genome-www.stanford.edu/Saccharomyces/">genome-www.stanford.edu/Saccharomyces/</A> 
+
+        <LI>Wormbase: <A href="http://www.wormbase.org/">www.wormbase.org/</A> 
+        </LI></UL>
+      <H5>Other database URLs:</H5>
+      <UL>
+        <LI>NCBI: <A 
+        href="http://www.ncbi.nlm.nih.gov/">www.ncbi.nlm.nih.gov/</A> 
+        <LI>EBI: <A href="http://www.ebi.ac.uk/">http://www.ebi.ac.uk/</A> 
+        <LI>DDBJ: <A href="http://www.ddbj.nig.ac.jp/">www.ddbj.nig.ac.jp/</A> 
+        <LI>SWISS-PROT: <A 
+        href="http://www.ebi.ac.uk/swissprot/">www.ebi.ac.uk/swissprot/</A> 
+        <LI>InterPro: <A 
+        href="http://www.ebi.ac.uk/interpro/">www.ebi.ac.uk/interpro/</A> 
+        <LI>Gene Ontology Consortium: <A 
+        href="http://www.geneontology.org/">www.geneontology.org/</A> 
+        <LI>GMOD: <A 
+        href="http://sourceforge.net/projects/gmod">sourceforge.net/projects/gmod</A> 
+        </LI></UL>
+      <H5>Data formats:</H5>
+      <UL>
+        <LI>GAME XML: <A 
+        href="http://www.bioxml.org/Projects/game/">www.bioxml.org/Projects/game/</A> 
+
+        <LI>MAML: <A 
+        href="http://sourceforge.net/projects/mged/">sourceforge.net/projects/mged/</A> 
+
+        <LI>GFF: <A 
+        href="http://www.sanger.ac.uk/Software/formats/GFF/index.shtml">www.sanger.ac.uk/Software/formats/GFF/index.shtml</A> 
+        </LI></UL>
+      <H5>Meetings:</H5>
+      <UL>
+        <LI>ISMB: <A href="http://www.ismb02.org/">http://www.ismb02.org/</A> 
+        <LI>GO: <A 
+        href="http://www.geneontology.org/">http://www.geneontology.org/</A> 
+        <LI>Cold Spring Harbor: <A 
+        href="http://nucleus.cshl.org/meetings/">nucleus.cshl.org/meetings/</A> 
+        </LI></UL>
+      <H5>Open Source RDMS:</H5>
+      <UL>
+        <LI>mySQL: <A href="http://www.mysql.com/">www.mysql.com/</A> 
+        <LI>PostGRESS: <A 
+        href="http://www.postgresql.org/">www.postgresql.org/</A> 
+  </LI></UL></TD></TR></TR></TBODY></TABLE>
+<HR>
+
+<TABLE width="100%" border=0 Summary="Standard bottom of page footer">
+  <TBODY>
+  <TR>
+    <TD vAlign=center align=left><A href="http://sourceforge.net/"><IMG 
+      height=31 alt="SourceForge Logo" 
+      src="AGREEN~1/sflogo.png" 
+      width=88 align=center border=0></A> </TD>
+    <TD align=middle><A href="http://www.wormbase.org/"><IMG alt=Wormbase 
+      src="AGREEN~1/wdb_small.gif" 
+      align=center border=0></A> | <A 
+      href="http://www.informatics.jax.org/"><IMG alt="Mouse Genome Database" 
+      src="AGREEN~1/jax.gif" 
+      align=center border=0></A> | <A 
+      href="http://genome-www.stanford.edu/Saccharomyces/"><IMG 
+      alt="Saccharomyces Genome Database" 
+      src="AGREEN~1/SGD-t.gif" 
+      align=center border=0></A> | <A href="http://www.flybase.org/"><IMG 
+      alt=Flybase 
+      src="AGREEN~1/fblogo.gif" 
+      align=center border=0></A> | <A href="http://www.arabidopsis.org/"><IMG 
+      alt="The Arabidopsis Information Resource" 
+      src="AGREEN~1/TAIR_logo.gif" 
+      align=center border=0></A> | <A href="http://www.gramene.org/"><IMG 
+      alt="Gramene: A Comparative Mapping Resource for Grains" 
+      src="AGREEN~1/gramene_logo180.jpg" 
+      align=center border=0></A> | <A href="http://rgd.mcw.edu/"><IMG 
+      alt="Rat Genome Database" 
+      src="AGREEN~1/rgd_logo.gif" 
+      align=center border=0></A> </TD>
+    <TD vAlign=center align=right><A 
+      href="mailto:cain@cshl.org">cain@cshl.org</A> 
+</TD></TR></TBODY></TABLE></BODY></HTML>
