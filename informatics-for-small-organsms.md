@@ -1,8 +1,8 @@
 # Informatics for 'small' organisms: A green paper.
 
-Michael Ashburner and Susanna Lewis (FlyBase); Lincoln Stein and Paul Sternberg (WormBase).
+## by Michael Ashburner and Susanna Lewis (FlyBase); Lincoln Stein and Paul Sternberg (WormBase).
 
-November 2001, revised April 2002, HTML mark up September 2002
+*November 2001, revised April 2002, HTML mark up September 2002*
 
 Many 'small' organisms, small not in the physical sense but in the sense that their community of researchers is small, have an urgent need for databases and informatics tools. They look at the 'large' organisms, organisms with a substantial research community, and see that these have well-funded informatics infrastructure supporting the community's research. The obvious question that then arises is: 'how can these guys help us ?' This green paper is a first attempt to address this question.
 
@@ -42,10 +42,14 @@ This document attempts to establish some criteria that may be used to address th
 
 Details:
 1. Curation. This term generally covers four different, but inter- connected, processes:
--- Sequence curation, or rather the curation of sequence annotation: Very often the sequence, and its associated primary annotation, will be coming from an independent sequencing lab. By primary sequence annotation we mean the results of the first high- throughput annotation of the sequence, often dominated by computational data, rather than the product of human curation. Insist that you obtain these data in a standard rich format (e.g. GAME XML, GFF), rather than as GenBank or EMBL-Bank format flat files. For the maintenance of annotation (by computational methods and by curation of the published literature) do not attempt to develop your own tools, but use one that is available from the community and which will interact with your database.
--- Other high-throughput data: ESTs, cDNAs, Increasingly you may need to curate data from high-throughput 'post-genomic' projects, expression arrays, protein-protein interactions etc. This will often require the ability to write one-off scripts to parse data formats.
--- Literature curation: Even if your database only includes annotations on sequence then you will need to curate information from the published scientific literature. This will require tools. Note that, as good as they are neither PUBMED nor MEDLINE cover the entire scientific literature.
--- Curation of personal communications from the community. Much data never gets published in the conventional sense but is immensely useful. Encourage the community to submit it to you. Attempt to archive data from personal web sites maintained by researchers, thus ensuring its persistence beyond the life of one well organized postdoc. Always attribute data to its source, never enter data 'ex cathedra', but attribute it to a particular named 'pope'.
+
+- Sequence curation, or rather the curation of sequence annotation: Very often the sequence, and its associated primary annotation, will be coming from an independent sequencing lab. By primary sequence annotation we mean the results of the first high- throughput annotation of the sequence, often dominated by computational data, rather than the product of human curation. Insist that you obtain these data in a standard rich format (e.g. GAME XML, GFF), rather than as GenBank or EMBL-Bank format flat files. For the maintenance of annotation (by computational methods and by curation of the published literature) do not attempt to develop your own tools, but use one that is available from the community and which will interact with your database.
+
+- Other high-throughput data: ESTs, cDNAs, Increasingly you may need to curate data from high-throughput 'post-genomic' projects, expression arrays, protein-protein interactions etc. This will often require the ability to write one-off scripts to parse data formats.
+
+- Literature curation: Even if your database only includes annotations on sequence then you will need to curate information from the published scientific literature. This will require tools. Note that, as good as they are neither PUBMED nor MEDLINE cover the entire scientific literature.
+
+- Curation of personal communications from the community. Much data never gets published in the conventional sense but is immensely useful. Encourage the community to submit it to you. Attempt to archive data from personal web sites maintained by researchers, thus ensuring its persistence beyond the life of one well organized postdoc. Always attribute data to its source, never enter data 'ex cathedra', but attribute it to a particular named 'pope'.
 
 2. Databasing. Do not spend even one minute debating low-level implementation details, for example, Sybase vs. Oracle vs. object orientated database management systems. Rather, accept the fact that particular technological solutions are transitory as that technology improves. Technical differences are negligible relative to differences in skills between individual developers and therefore implementation decisions are best determined by the experience of the personnel that is available. Note that Open Source relational database management systems, such as mySQL and postGRESS, are now reasonably mature.
 
