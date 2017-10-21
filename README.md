@@ -1,2 +1,3 @@
 # assembling-the-tree-of-life-europe-atol
-Notes on Assembling the Tree of Life (ATOL) from 2002
+
+These are notes and resourceson “Assembling the Tree of Life (ATOL)” made in 2002. Some of this material has vanished from the web. The essay Informatics for 'small' organisms is a wonderful summary of how to provide informatics infrastructure in biology.
